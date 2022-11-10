@@ -205,7 +205,7 @@ clock = pygame.time.Clock()
 pygame.display.update()
 
 
-#'''
+''''
 DrawLine(0, 0, 50, 50)
 DrawLine(50, 50, 50, 0)
 DrawLine(50, 0, 0, 0)
@@ -232,9 +232,9 @@ DrawLine(210, 160, 185, 180)
 DrawCircle(246, 238, 60)
 DrawCircle(200, 360, 20)
 DrawCircle(170, 238, 60)
-Color3(180, 175, 128, 128, 16)
+Color3(180, 175, 128, 128, 160)
 DrawPLissaz(300, 250, 250, 250, 10, 10)
-'''
+#'''
 #Основной цикл
 while True:
     for event in pygame.event.get():
